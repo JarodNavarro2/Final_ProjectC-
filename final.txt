@@ -1,0 +1,23 @@
+Jarod Navarro
+2016-5-1
+COMP271
+Final Documentation
+Solo project: Ants!
+
+	My project is a heavily similar turn base simulation. The ants on both colonies are determined by the computer, or the user input. What this does is allow the ants to go into any direction with only a few steps per day. The two colonies are controlled by random generators, so there is never a duplicate battle. Once the ants meet up with each other (depending on which direction they go to), they battle it out. Whoever wins keeps going, and whoever loses is reset back to square 1. The ants keep moving until they meet up again at a certain direction, and battle again. Once one colony has been eliminated, the other colony is victorious. No two colonies can be eliminated at the same time (as in there is never a tie).
+
+	The data structures I used were string and ctime. The reason why I used these two data structures was for user input, and mainly for the ants. Since nearly everything is a “what if” scenario, I really had to study how to use the random generator effectively, and with what parameters. Combine that with countless loops, and you have a solid random generator.
+
+	How to use the code
+1)	Decide what type of battle simulation you would like to see
+a.	If you decide to choose your own battle, input every parameter. NOTE: The ratio for #ants:#steps:#deaths will determine how long it takes for one side to win. So bigger and smaller isn’t a good option (unless you’re willing to wait)
+2)	Watch the screen and see how many steps the colony, or “squad”, takes and in which direction. The number in the parenthesis show how many steps they have taken total in that certain direction. When two numbers are similar to each other, they battle. The computer will determine who wins
+3)	Sit back and wait for the battle to end.
+4)	Close the program
+
+The IDE used was Microsoft Visual Studio Professional 2015. The OS is Windows 10.1 (most recent update). The specs are intel i7 3rd generation overclocked CPU, 8Gb ram, 1TB Hard disk.
+
+
+Didn’t have a partner. Everything was done by me.
+
+Hope you like it!
